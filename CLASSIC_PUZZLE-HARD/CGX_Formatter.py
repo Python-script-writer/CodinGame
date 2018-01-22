@@ -2,10 +2,7 @@ s = ''
 n = int(input())
 for i in range(n):s+=input()
 
-q = 0
-i = 0
-n = 0
-u = 0
+q = i = n = u = 0
 t = ''
 
 for c in s:
