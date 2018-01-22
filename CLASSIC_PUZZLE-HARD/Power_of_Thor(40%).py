@@ -16,5 +16,4 @@ while True:
         elif a==x and b+1==y:c="STRIKE"
         elif a-1==x and b==y:c="STRIKE"
         elif a==x and b-1==y:c="STRIKE"
-        print(a,b,x,y, file=sys.stderr)
     print(c)   
